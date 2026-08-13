@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.example.belowzero.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EntityVoidMixin",
+    "BackgroundRendererMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

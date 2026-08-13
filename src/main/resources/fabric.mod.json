@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "below_zero",
+  "version": "${version}",
+  "name": "Below Zero 1.16.5",
+  "description": "Allows players to go below Y=0 on 1.16.5 servers without taking void damage or black void fog.",
+  "authors": [
+    "Gemini"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/below_zero/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.belowzero.BelowZeroMod"
+    ]
+  },
+  "mixins": [
+    "below_zero.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "minecraft": "1.16.5",
+    "java": "8"
+  }
+}
